@@ -16,6 +16,8 @@
         </dependency>
     </dependencies>
     <properties>
+        <sonar.organization>pg-software-engineering-i-2021-2</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <maven.compiler.source>14</maven.compiler.source>
         <maven.compiler.target>14</maven.compiler.target>
     </properties>
