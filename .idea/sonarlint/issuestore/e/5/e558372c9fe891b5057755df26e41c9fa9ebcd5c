@@ -1,0 +1,13 @@
+
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÅÂÒû8‡‰è‰Ü/
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 32 to the 15 allowed.(ûÌ†˜8±‰è‰Ü/
+8
+java:S3626,"Remove this redundant jump.(ÉŠ©ƒ8º‰è‰Ü/
+K
+java:S1940$")Use the opposite operator ("==") instead.(Í¨ßçûÿÿÿÿ8Â‰è‰Ü/
+C
+java:S1125'"'Remove the unnecessary boolean literal.(­´§?8Å‰è‰Ü/
+F
+java:S5411'"*Use the primitive boolean expression here.(­´§?8Ü‰è‰Ü/

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="PrincipalTest" time="0.594" tests="13" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="PrincipalTest" time="0.574" tests="13" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="16"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="PE"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-16.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\danjo\AppData\Local\Temp\surefire1446491761884657772\surefirebooter5177344694436750393.jar C:\Users\danjo\AppData\Local\Temp\surefire1446491761884657772 2021-12-15T22-29-07_456-jvmRun1 surefire4094185909004111958tmp surefire_04613572237339018352tmp"/>
+    <property name="sun.java.command" value="C:\Users\danjo\AppData\Local\Temp\surefire12907769630579916233\surefirebooter12716776079992396461.jar C:\Users\danjo\AppData\Local\Temp\surefire12907769630579916233 2021-12-15T22-34-26_716-jvmRun1 surefire5866282660040871576tmp surefire_015504091902753526854tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\danjo\Desktop\se\practica-calificada-2-djsg2021utec\target\test-classes;C:\Users\danjo\Desktop\se\practica-calificada-2-djsg2021utec\target\classes;C:\Users\danjo\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\danjo\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\danjo\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\danjo\AppData\Local\Temp\surefire1446491761884657772\surefirebooter5177344694436750393.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\danjo\AppData\Local\Temp\surefire12907769630579916233\surefirebooter12716776079992396461.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="16.0.2+7-67"/>
@@ -65,7 +65,7 @@
   <testcase name="increase_one_extra_point_if_there_is_any_benevolent_teacher_in_the_year_to_calculate_grades" classname="PrincipalTest" time="0"/>
   <testcase name="maintain_10_as_the_maximum_grade_even_if_increasing_one_extra_point" classname="PrincipalTest" time="0"/>
   <testcase name="not_increase_one_extra_point_if_there_is_not_any_benevolent_teacher_in_the_year_to_calculate_grades" classname="PrincipalTest" time="0"/>
-  <testcase name="round_up_to_2_decimals_given_odd_exam_grades_and_attending_the_minimum_classes" classname="PrincipalTest" time="0.001"/>
+  <testcase name="round_up_to_2_decimals_given_odd_exam_grades_and_attending_the_minimum_classes" classname="PrincipalTest" time="0"/>
   <testcase name="validate_all_exam_grades_weight_below_100" classname="PrincipalTest" time="0"/>
   <testcase name="validate_all_exam_grades_weight_over_100" classname="PrincipalTest" time="0"/>
 </testsuite>
