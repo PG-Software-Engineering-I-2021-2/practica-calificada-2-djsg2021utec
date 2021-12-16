@@ -1,0 +1,14 @@
+
+b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(—Ã¹8šŠÜ/
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ë’áıøÿÿÿÿ8œŠÜ/
+v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(©¼Å¸8œŠÜ/
+{	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¬üäÔÿÿÿÿÿ8œŠÜ/
+s	java:S116"RRename this field "_Nombre" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦¬‹ûÿÿÿÿ8œŠÜ/
+q	java:S116"PRename this field "_Tipo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï¤ÑÆúÿÿÿÿ8ŠÜ/
+u	java:S116"TRename this field "_notaBase" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß´ğúÿÿÿÿ8ŠÜ/
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œğäîøÿÿÿÿ8¡ŠÜ/
+]	java:S125""<This block of commented-out lines of code should be removed.(“ÆÑĞûÿÿÿÿ8¥ŠÜ/
+]	java:S125+"<This block of commented-out lines of code should be removed.(ş¾’öùÿÿÿÿ8¦ŠÜ/
+]	java:S125I"<This block of commented-out lines of code should be removed.(¦¬‹ûÿÿÿÿ8¦ŠÜ/
+M
+java:S1068"+Remove this unused "_Nombre" private field.(¦¬‹ûÿÿÿÿ8§ŠÜ/
