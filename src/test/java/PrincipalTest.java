@@ -11,7 +11,7 @@ public class PrincipalTest {
     void fail_given_there_are_no_exams() {
         Principal studentGradeCalculator = new Principal(2019);
 
-        final List<Pair<Integer, Float>> examsGrades = Collections.emptyList();
+        final List<Pair<Integer, Float>> examsGrades              = Collections.emptyList();
         final boolean  hasReachedMinimumClasses = true;
         Assert.assertEquals(0.0, studentGradeCalculator.calculateGrades(examsGrades, hasReachedMinimumClasses));
     }

@@ -1,5 +1,5 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-PracticaCalificada2,default,Teacher,23,18,4,0,5,7,4,1,1,1
-PracticaCalificada2,default,Student,33,0,4,0,10,0,5,0,2,0
-PracticaCalificada2,default,Principal,4,200,0,20,2,40,1,12,1,2
-PracticaCalificada2,default,Pair,0,15,0,0,0,6,0,3,0,3
+practica-calificada-2-djsg2021utec,default,Teacher,23,18,4,0,5,7,4,1,1,1
+practica-calificada-2-djsg2021utec,default,Student,33,0,4,0,10,0,5,0,2,0
+practica-calificada-2-djsg2021utec,default,Principal,4,201,0,20,2,41,1,12,1,2
+practica-calificada-2-djsg2021utec,default,Pair,0,15,0,0,0,6,0,3,0,3

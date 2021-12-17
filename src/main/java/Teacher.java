@@ -1,26 +1,36 @@
-public class Teacher {
+abstract public class Teacher {
+    int _salarioBaseMensual = 2000;
+    int _comision = 500;
+    int _bonus = 100;
+    abstract int Sueldo();
+}
+
+class ProfesorTP extends Teacher {
     private String _Nombre;
-    private int _Tipo;
-    private int _salarioBaseMensual =2000;
-    private int _comision = 500;
-    private int _bonus = 100;
-    static final int ProfesorTP = 0;
-    static final int ProfesorTC = 1;
-    static final int Administrativo = 2;
-    Teacher(int type, String nombre) {
-        _Tipo = type;
-        _Nombre = nombre;
+    ProfesorTP(String nombre){
+        this._Nombre = nombre;
     }
-    int Sueldo() {
-        switch (_Tipo) {
-            case ProfesorTP:
-                return _salarioBaseMensual;
-            case ProfesorTC:
-                return _salarioBaseMensual + _comision;
-            case Administrativo:
-                return _salarioBaseMensual + _bonus;
-            default:
-                throw new RuntimeException("Empleado incorrecto");
-        }
+    public int Sueldo() {
+        return _salarioBaseMensual;
+    }
+}
+
+class ProfesorTC extends Teacher {
+    private String _Nombre;
+    ProfesorTC(String nombre){
+        this._Nombre = nombre;
+    }
+    public int Sueldo() {
+        return _salarioBaseMensual + _comision;
+    }
+}
+
+class Administrativo extends Teacher {
+    private String _Nombre;
+    Administrativo(String nombre){
+        this._Nombre = nombre;
+    }
+    public int Sueldo() {
+        return _salarioBaseMensual + _bonus;
     }
 }
